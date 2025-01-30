@@ -31,5 +31,5 @@ jobs:
     - name: Upload Excel files as artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: msi_40_60
+        name: msi_21_40
         path: output/*.xlsx
