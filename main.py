@@ -9,7 +9,7 @@ import os
 class BarbadosPropertyScraper:
     def __init__(self):
         self.base_url = 'https://www.barbadospropertysearch.com'
-        self.start_url = 'https://www.barbadospropertysearch.com/holiday-rentals'
+        self.start_url = 'https://www.barbadospropertysearch.com/for-sale?min_price=&max_price=&property_type%5B%5D=29&uid=&sort_by=changed'
         self.data = []
         self.scraped_urls = set()
         self.transaction_type = self.determine_transaction_type()  # Determine transaction type at initialization
